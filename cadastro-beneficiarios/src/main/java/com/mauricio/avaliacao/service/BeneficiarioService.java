@@ -4,7 +4,6 @@ import com.mauricio.avaliacao.model.Beneficiario;
 import com.mauricio.avaliacao.repository.BeneficiarioRepository;
 import org.hibernate.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cglib.core.Local;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
