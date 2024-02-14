@@ -37,6 +37,7 @@ public class BeneficiarioService {
         newObj.setDataNascimento(obj.getDataNascimento());
         newObj.setDataInclusao(obj.getDataInclusao());
         newObj.setDataAtualizacao(LocalDate.now());
+        newObj.setDocumentos(obj.getDocumentos());
         return repository.save(newObj);
     }
 
